@@ -47,8 +47,9 @@ class CashRegister
   
   def void_last_transaction()
     #binding.pry
+    @cart.pop
     if @cart.empty?
-      @total = 0
+      @total = 0.0
     else 
       @total -= @last_transaction_amount
     end

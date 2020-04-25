@@ -14,6 +14,7 @@ class CashRegister
     item_info[:name] = item
     item_info[:price] = price
     item_info[:quantity] = quantity
+  end
 
 
   def apply_discount

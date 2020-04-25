@@ -21,6 +21,7 @@ class CashRegister
     else 
       @items << item
     end
+    @total
   end
 
 

@@ -48,7 +48,7 @@ class CashRegister
   def void_last_transaction()
     binding.pry
     if @cart.length < 1
-      @total = 0.0
+      @total.clear
     else 
       @total -= @last_transaction_amount
     end

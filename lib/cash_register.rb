@@ -3,7 +3,7 @@ require 'pry'
 
 
 class CashRegister
-  attr_accessor :discount, :total :last_transaction_amount
+  attr_accessor :discount, :total, :last_transaction_amount
   
 
   def initialize(discount = 0)
@@ -21,7 +21,7 @@ class CashRegister
 
     @cart << item_info
     @total += price * quantity
-     @last_transaction_amount = total
+    @last_transaction_amount = total
     @total
 
   end

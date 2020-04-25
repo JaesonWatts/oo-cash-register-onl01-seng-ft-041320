@@ -52,6 +52,7 @@ class CashRegister
     else 
       @total -= @last_transaction_amount
     end
+    total
   end
 
 end

@@ -1,1 +1,14 @@
+class CashRegister
+  
+
+
+
+
+
+
+
+
+
+end
+
 
